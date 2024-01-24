@@ -297,7 +297,9 @@ fieldset {
   border: 1px solid #FFF;
 }
 
-input[type='checkbox']:checked + span::after {
+/* input[type='checkbox'] */
+
+.visually-hidden:checked + span::after {
   content: "";
   position: absolute;
   inset: 0;
